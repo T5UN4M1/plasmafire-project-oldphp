@@ -1,0 +1,227 @@
+body {
+    background-color : black;
+	background-image : url("./background.png");
+	background-attachment : fixed;
+	font-family : verdana;
+	font-size : 10px;
+}
+div{
+	/*border : 1px solid black;
+	background-color : #364566;*/
+}
+div#page{
+	position : absolute;
+	top : 0px;
+	left : 0px;
+	right : 0px;
+	border : none;
+	background-color : transparent;
+}
+div#leftMenu {
+	position : absolute;
+	left : 5px;
+	top : 5px;
+	width : 150px;
+}
+.leftMenu/*, .ressourcePanel*/{
+	border-collapse : collapse;
+}
+div#ressourcePanel{
+	position : absolute;
+	top : 0px;
+	right : 0px;
+	left : 120px;
+	margin : 0 auto;
+	width : 1000px;
+}
+div#main{
+	position : absolute;
+	left : 120px;
+	right : 0px;
+	width : 1008px;
+	margin : 0 auto;
+	top : 50px;
+}
+a {
+	text-decoration : none;
+	color : #6291B5;
+}
+a:hover {
+	text-decoration : underline;
+	color : #eee;
+}
+.content{
+	table-layout: fixed;
+	width: 100%;
+}
+.content2{
+	width: 100%;
+}
+.menuLink {
+	font-weight : bold;
+	color : #6291B5;
+	text-decoration : none;
+}
+.menuLink:hover{
+	color : #eee;
+	text-decoration : underline;
+	
+}
+td {
+	text-align : center;
+	color : #eee;
+	border : 1px solid grey;
+	background-image : url("./tdbg.png");
+	background-color : transparent;
+	border-radius: 5px;
+}
+th {
+	/*color : #A8AA8B;*/
+	border : 1px solid grey;
+	color : black;
+	/*background-image : url("./tdbg.png");*/
+	background-color : lightblue;
+	border-radius: 5px;
+}
+.possible, .good {
+	color : lime;
+}
+.presque{
+	color : orange;
+}
+.impossible, .bad {
+	color : red;
+}
+.average {
+	color : lightblue;
+}
+#gaugeContainer {
+	margin : 5px;
+	width:777px;
+	height:4px;
+	border:1px solid white;
+}
+.gauge {
+	height:100%;
+	width:100%;
+	border: none;
+	background-color:transparent;
+	border-collapse : collapse;
+}
+.gaugeFull{
+	text-align : left;
+	height:100%;
+	border:none;
+	background-color:lightblue;
+	border-radius : 0px;
+	background-image : none;important!;
+}
+.res0, .res1, .res2, .res3{
+	font-weight : bold;
+}
+.res0{
+	color : #b3c6ff;
+}
+.res1{
+	color : #00ffff;
+}
+.res2{
+	color : #ffff80;
+}
+.res3{
+	color : #99ff66;
+}
+input {
+	background-color:transparent;
+	color : white;
+	border : 1px solid lightblue;
+	border-radius : 5px;
+	text-align:center;
+	font-size : 12px;
+	margin:3px;
+}
+.ttp {
+	text-align : center;
+	color : #eee;
+	border : 1px solid grey;
+	background-image : url("./tdbg.png");
+	background-color : transparent;
+	border-radius: 5px;
+}
+select {
+	text-align : center;
+	color : #888;
+	border : 1px solid grey;
+	background-image : url("./tdbg.png");
+	background-color : transparent;
+	border-radius: 5px;
+}
+textarea{
+	text-align : center;
+	color : #eee;
+	border : 1px solid grey;
+	background-color : transparent;
+	border-radius: 5px;
+}
+
+/******************************* FLOTTES *****************************/
+
+.myMission0{ /*attaque*/
+	color : orange;
+}
+.myMission1{ /*transporter */
+	color : lime;
+}
+.myMission2{ /*stationer */
+	color : green;
+}
+.myMission3{ /* coloniser */
+	color : aqua
+}
+.myMission4{ /*exploiter */
+	color : brown;
+}
+.myMission5{ /*espionnage */
+	color : yellow;
+}
+.otMission0{ /* un enemi nous attaque */
+	color : red;
+}
+.otMission1 { /* on nous envoi des ressources*/
+	color : lime;
+}
+.otMission2 { /* on nous envoi des vaisseaux*/
+	color : lime;
+}
+.otMission3 { /* quelqu'un colonise notre planete */
+	color : white;
+}
+.otMission4 { /* quelqu'un vient recycler notre champs de débris */
+	color : orange;
+}
+.otMission5 { /* on nous espionne */
+	color : orange;
+}
+.back { /* une de nos flotte revient */
+	color : grey;
+}
+@-webkit-keyframes blinker {  /* http://john-smith.appspot.com/emulating--lt-blink-gt--using-webkit-css3-animation */
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+.newmsg {
+  -webkit-animation-name: blinker;  
+  -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  -webkit-animation-duration: 1s; 
+}
+
+.power {
+	color : orange;
+}
+.shield {
+	color : aqua;
+}
+.hull {
+	color : grey;
+}

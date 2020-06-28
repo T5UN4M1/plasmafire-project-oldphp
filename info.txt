@@ -1,0 +1,133 @@
+ressources
+
+0 Acier
+1 Silicium
+2 Hydrogene
+
+batiments
+100 Quartier général
+101 Mess des officiers
+
+102 Mine acier
+103 Mine silicium
+104 Collecteur hydrogene
+
+105 Centrale solaire
+106 Centrale fusion nucleaire
+
+107 Usine de robots
+108 Usine de nano-robots
+
+109 Chantier spatial
+110 Centre de défenses
+
+111 Laboratoire
+
+112 Porte de saut intergalactique
+
+113 Entrepot
+
+114 terraformeur
+Vaisseaux
+
+Chasseurs :
+
+200 Chasseur léger
+201 Chasseur lourd
+202 Intercepteur
+203 Bombardier
+204 Petit transporteur
+205 Sonde d'espionnage
+206 Satellite solaire
+--------------------------------------
+Vaisseaux légers
+
+207 Corvette
+208 Destroyer
+209 Transporteur
+--------------------------------------
+Vaisseaux modérés
+
+210 Frégate
+211 Croiseur
+212 Recycleur
+213 Vaisseau de colonisation
+--------------------------------------
+Vaisseaux lourds
+
+214 Croiseur lourd
+215 Bombardier orbital
+216 Cuirassé
+217 Transporteur lourd
+
+Technologies
+
+300 Energie
+301 Ordinateur
+302 Espionnage
+
+303 Propulsion a combustion
+304 Propulsion ionique
+305 Propulsion hyperspatiale
+
+306 Arme
+307 Bouclier
+308 Coque
+
+309 Alliages
+310 Raffinement
+311 Purification
+
+312 Administration
+313 Réseau de recherche inter planétaire
+
+314 Stratégie
+
+315 Laser
+316 Torpille
+317 Ion
+318 Phaser
+319 Plasma
+320 Turbolaser
+321 Antimatiere
+322 Annihilateur
+
+défenses :
+400 Tourelle lance missiles
+401 Tourelle laser
+402 Tourelle laser lourde
+403 Tourelle ion
+404 Tourelle phaser
+405 Tourelle phaser lourde
+406 Tourelle plasma
+407 tourelle turbolaser
+408 Tourelle antimatière
+409 Tourelle annihilateur
+
+Compétences officier :
+
+Gestion : (pour planete)
+
+military tree
+
+ ["Attaquer", 0
+ "Transporter", 1
+ "Stationner",2
+ "Coloniser", 3
+ "Exploiter", 4
+ "Espionner"]; 5
+ 
+level -> 
+		8 : banned
+		9 : vacance
+		10 : joueur
+		11 : op
+		12 : admin
+		
+messageType -> 
+1 : joueur
+2 : rapport de flotte (autres)
+3 : rapport d'espionnage
+4 : rapports de combat
+5 : rapports de recyclage
+6 : message d'alliance
